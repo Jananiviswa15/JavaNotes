@@ -1,0 +1,72 @@
+Java ---> 
+is a prg lang ( human to mac interact)
+backend lang --> c , c++, Java, python...
+
+Applications :
+1.standalone app : desktop app
+2. we application : dynamic web pgs,(servlets, jsp, struts, hibernate, )
+3. Enterprise app : banking app, medical app(high level security)
+(no ptrs in java) ptrs --> stores the address(variable, array)
+4. Mobile app : java ME
+
+
+Real world : hadoop , NASA (world wind)
+
+--------------------------------
+java prg ---> machine code
+HLL(SC) --> LL(Exe.code), machine code, binary
+1. compiler(entire prg --> mc, time is low, it is efficient, generates IC , memory consmpt
+cpu(quad, octal, dual(no of cores will be available), it will indicate err at the end of compil) 
+c, C++
+2. Interpreter--> python
+
+Java --> it is compiled and interpreted 
+--------------------------------------
+
+C --> printf("hi all ");
+c++ -> cout ("hi all");
+java --> system.out.println("hi all ");
+
+---------------------------------------------
+
+Java features : 1. oops(encapsulation, polymorphism(ct & rt),abstraction, class, obj, inhert)
+2. platform independent --> byte code, wora  
+3.strong type checking / statically typed lang (java)  
+dynamically typed lang (js)  name = 67.788
+string name = "janani";  //name --> err
+datatype age = 12;  
+returntype funcName(datatype nameofArg1, datatype nameofArg2){
+}compiled and interpreted 
+5.garbage collector //to collect the unreferenced/ unused 
+6.muti threading (racing game())
+7.secured
+8. robust ---> exception handi
+-----------------------------------------------------------
+new24.txt
+java prg(filename123.java) --> java comp --->(winds, mac, linux)(filename123.class) byte code(it is platform/mach indep)
+				
+									---> machine code(0s and 1s)
+
+---------------------
+JDK  -> java development kit(javacompiler) .class(JRE , JVM)
+.class -> JRE -> java run t envi (JVM)
+JVM -> java virtual mac (bhte code --> .exe(binary file),wher your java prg is actually
+to produce output)
+
+
+------------------------------
+.java name = "janani";  --> .class (bytecode)
+.class --> JRE --> class LOader syst(loading, linking, intialize)
+
+Jvm MEmory : Method area, heap area, stack area, PC registers, native method stacks
+
+execution engine --> JIT(Just in time interpreter), gc 
+
+
+-------------------------------
+
+displayAddress(){   //once,  machine //re interpretation is avoid 
+sysout ("addres : ")
+}
+
+
