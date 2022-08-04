@@ -7,7 +7,7 @@ public class Array1 {
 		byte byteArr[] = new byte[3];
 		float floatArr[] = new float[9];
 		short shrtArr[] = new short[90];
-		long longArr[] = {39483948, 98989};
+		long longArr[] = {39483948, 98989}; 
 		char charArr[] = new char[900];
 		boolean boolArr[] = new boolean[90];
 		double dArr[] = new double[890];
