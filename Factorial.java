@@ -1,5 +1,6 @@
 package com.loops;
 import java.util.*;
+import com.edubridge.*;
 public class Factorial {
 
 	public static void main(String args[]) {
